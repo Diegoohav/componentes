@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Titulo } from './components/Titulo'
+import { Resultado } from './components/Resultado'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <Titulo titulo={"Titulo de pagina"}/>
+      <Resultado numeroa={5} numerob={7}/>
     </>
   )
 }
